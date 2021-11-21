@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = "2112783382:AAElumQRG9OfSuPVAJoTABbhPZX_obE1Ge0"
-    APP_ID = "18584875"
-    API_HASH = "5d9cc4ec348031e2b32490ff3d8dc40e"
-    DATABASE_URL = "postgres://lzwwjmxlkvlvfo:3d311904fcd10ed183407c3e1b486622bcaac7d7bcbd1de8594410e6477e8be6@ec2-23-21-4-7.compute-1.amazonaws.com:5432/d87003dmtgcst4"
+    BOT_TOKEN = "2136137234:AAHISdoS6BKMSCLxQ-HxQtxwSPfQOA9g-Z4"
+    APP_ID = "13751988"
+    API_HASH = "8a885cc6e1ac3b96afdcfb976fd02118"
+    DATABASE_URL = "postgres://pjoslcjsynwrtj:ae5f54aeed44e7fac4e88cae6507871b744ec0250d567b9c15489a8376cc97e0@ec2-3-221-225-131.compute-1.amazonaws.com:5432/de8tke7s8gttrl"
     SUDO_USERS = "1682767082 1290751149 1237643807" # Sepearted by space.
     SUPPORT_CHAT_LINK = "https://t.me/joinchat/cP_cQ3V_K-AwOGI1"
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = "49939621746-15s0kifki4lhhqfcjk4jn8kji9m3lk4m.apps.googleusercontent.com"
-    G_DRIVE_CLIENT_SECRET = "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"
+    G_DRIVE_CLIENT_ID = "911246878007-mdt714i7n4gf9945snf2ce2bh34679qq.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
 
 
 class BotCommands:
@@ -25,7 +25,7 @@ class Messages:
 
     HELP_MSG = [
         ".",
-        "**Google Drive Uploader**\n__I can upload files from direct link or Telegram Files to your Google Drive. All i need is to authenticate me to your Google Drive Account and send a direct download link or Telegram File.__\n\nI have more features... ! Wanna know about it ? Just walkthrough this tutorial and read the messages carefully.",
+        "**Google Drive Uploader**\n__I can upload files from direct link or Telegram Files to my Google Drive. All i need is to authenticate me to your Google Drive Account and send a direct download link or Telegram File.__\n\nI have more features... ! Wanna know about it ? Just walkthrough this tutorial and read the messages carefully.",
         
         f"**Authenticating Google Drive**\n__Send the /{BotCommands.Authorize[0]} commmand and you will receive a URL, visit URL and follow the steps and send the received code here. Use /{BotCommands.Revoke[0]} to revoke your currently logged Google Drive Account.__\n\n**Note: I will not listen to any command or message (except /{BotCommands.Authorize[0]} command) until you authorize me.\nSo, Authorization is mandatory !**",
         
@@ -37,8 +37,8 @@ class Messages:
         
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
-        # Dont remove this ↓ if you respect developer.
-        "**Developed by @viperadnan**"
+       
+        "**Developed by @Tharshikan**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__what are you fucking here.__"
@@ -47,7 +47,7 @@ class Messages:
     
     INVALID_GDRIVE_URL = "❗ **Invalid Google Drive URL**\nMake sure the Google Drive URL is in valid format."
     
-    COPIED_SUCCESSFULLY = "✅ **Copied successfully I happy.**\n[{}]({}) __({})__"
+    COPIED_SUCCESSFULLY = "✅ **Copied successfully I am happy.**\n[{}]({}) __({})__"
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
@@ -57,13 +57,13 @@ class Messages:
     
     DOWNLOAD_ERROR = "❗**Downloader Failed Fucking error**\n{}\n__Link - {}__"
     
-    DOWNLOADING = "📥 **Downloading File now wait with pleasure...\nLink:** ```{}```"
+    DOWNLOADING = "📥 **Downloading File now wait with pleasure Tharshikan have a tea break...\nLink:** ```{}```"
     
     ALREADY_AUTH = "🔒 **Already authorized your Google Drive Account.**\n__Use /revoke to revoke the current account.__\n__Send me a direct link or File to Upload on Google Drive__"
     
     FLOW_IS_NONE = f"❗ **Invalid Code**\n__Run {BotCommands.Authorize[0]} first.__"
     
-    AUTH_SUCCESSFULLY = '🔐 **Authorized Google Drive account Successfully.**'
+    AUTH_SUCCESSFULLY = '🔐 **Authorized Google Drive account Successfully upload files fast  enjoy enjaami Tharshikan.**'
     
     INVALID_AUTH_CODE = '❗ **Invalid Code**\n__The code you have sent is invalid or already used before. Generate new one by the Authorization URL__'
     
@@ -71,7 +71,7 @@ class Messages:
     
     DOWNLOAD_TG_FILE = "📥 **Downloading File...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
-    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
+    PARENT_SET_SUCCESS = '🆔✅ **Custom Folder link set successfully  ready to upload files.**\n__Your custom folder id - {}\nUse__ ```/{} clear``` __to clear it.__'
     
     PARENT_CLEAR_SUCCESS = f'🆔🚮 **Custom Folder ID Cleared Successfuly.**\n__Use__ ```/{BotCommands.SetFolder[0]} (Folder Link)``` __to set it back__.'
     
