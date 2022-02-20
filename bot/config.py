@@ -1,10 +1,10 @@
 class config:
-    BOT_TOKEN = "2106263760:AAHKYfGseyfRo_Ndtwek2oBqjgs5epoQkO0"
-    APP_ID = "18584875"
-    API_HASH = "5d9cc4ec348031e2b32490ff3d8dc40e"
-    DATABASE_URL = "postgres://dlfqgjzjhvrltl:402cfbd7d99d3d5b3706e747ea12e3141d8b562cd32ecbd8c79d14ce36a9f8ba@ec2-54-144-165-97.compute-1.amazonaws.com:5432/d3bjo46eu0i1li"
-    SUDO_USERS = "1682767082 1290751149 1237643807" # Sepearted by space.
-    SUPPORT_CHAT_LINK = "https://t.me/joinchat/cP_cQ3V_K-AwOGI1"
+    BOT_TOKEN = "5265789749:AAG5_AY0e9SuTNsW0JGWHyPuzemQ2EyDIfw"
+    APP_ID = "13267268"
+    API_HASH = "b4e81939037e57a69c468056b0d594d2"
+    DATABASE_URL = "postgres://brabyckqjfxrqb:4fff4e03b0ba68142bb60879edaf7f623fd947ed1c97f7ef7a9cec19ada96012@ec2-52-213-119-221.eu-west-1.compute.amazonaws.com:5432/d7uqgl4k6le25u"
+    SUDO_USERS = "5240427630 5229867440 2060289251" # Sepearted by space.
+    SUPPORT_CHAT_LINK = "https://t.me/whatsapp_meta"
     DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = "132564500673-fm68ov3cqmfd9ham1mrjmuphc9irchr1.apps.googleusercontent.com"
     G_DRIVE_CLIENT_SECRET = "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"
